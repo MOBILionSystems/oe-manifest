@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="github" fetch="https://github.com"/>
-  <remote name="MOBILionSystems" fetch="https://github.com/MOBILionSystems"/>
   <remote name="oe" fetch="http://git.openembedded.org"/>
   <remote name="OpenSTLinux" fetch="https://github.com/STMicroelectronics"/>
 
@@ -15,5 +14,4 @@
   <project name="meta-st-stm32mp-addons" path="layers/meta-st/meta-st-stm32mp-addons" revision="f1a18b73343afd8dd5f9aa7f5b605d139fb9e4a8"/>
   <project name="meta-st-scripts" path="layers/meta-st/scripts" revision="69e10d187debb1d4136af1c454b3dffd994c3de7"/>
   <project name="openembedded-core" path="layers/openembedded-core" remote="oe" revision="7949e786cf8e50f716ff1f1c4797136637205e0c"/>
-  <project name="meta-mbi-lightningfw" path="layers/meta-st/" remote="MOBILionSystems" revision="b44005d2257aa335498cf06a45a066e934542fbf"/>
 </manifest>
